@@ -26,13 +26,13 @@ class TaskTile extends StatelessWidget {
       ),
       leading: Checkbox(
         activeColor: Colors.lightBlueAccent,
-        value: isChecked,Buy
+        value: isChecked,
         onChanged: checkboxCallback,
       ),
-      trailing: IconButton(
-        onPressed: longPressCallback,
-        icon: Icon(Icons.delete, color: Colors.red),
-      ),
+      // trailing: IconButton(
+      //   onPressed: longPressCallback,
+      //   icon: Icon(Icons.delete, color: Colors.red),
+      // ),
     );
   }
 }
